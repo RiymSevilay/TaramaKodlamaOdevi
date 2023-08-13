@@ -1,14 +1,15 @@
-package com.sevilay.entity;
+package com.sevilay;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.sevilay.entity.IGoruntule;
+import com.sevilay.entity.Kitap;
+import com.sevilay.entity.Kitaplik;
+import com.sevilay.entity.KonsolaYazdirma;
 
 public class Runner {
 
 	public static void main(String[] args) {
 
 		Kitaplik kitaplik = new Kitaplik(null, null, null, 0);
-		List<Kitap> kitap = new ArrayList<>();
 		Kitap kitap1 = new Kitap("Küçük Prens", "Antoine de Saint-Exupéry", "ISBN-10", 1943);
 		Kitap kitap2 = new Kitap("Fareler ve İnsanlar", "John Steinbeck", "ISBN-11", 1937);
 		Kitap kitap3 = new Kitap("Kürk Mantolu Madonna", "Sabahattin Ali", "ISBN-12", 1943);
